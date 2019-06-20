@@ -6,7 +6,8 @@ to the [Unicode Standard Annex #29](http://www.unicode.org/reports/tr29/) rules.
 [Documentation](https://unicode-rs.github.io/unicode-segmentation/unicode_segmentation/index.html)
 
 ```rust
-extern crate unicode_segmentation;
+// Uncomment this if you're using the Rust 2015 edition
+// extern crate unicode_segmentation;
 
 use unicode_segmentation::UnicodeSegmentation;
 
